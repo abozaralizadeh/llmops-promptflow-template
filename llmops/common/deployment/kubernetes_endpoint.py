@@ -27,7 +27,7 @@ from azure.identity import DefaultAzureCredential
 from llmops.common.logger import llmops_logger
 from llmops.common.experiment_cloud_config import ExperimentCloudConfig
 
-logger = llmops_logger("provision_endpoint")
+logger = llmops_logger("kubernetes_endpoint")
 
 
 def create_kubernetes_endpoint(
